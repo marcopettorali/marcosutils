@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marcosutils"
+version = "0.1.0"
+description = "Meta package for Marco's Python utilities."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Marco Pettorali" },
+]
+dependencies = [
+  "probdist @ git+https://github.com/marcopettorali/probdist.git@main",
+  "editplot @ git+https://github.com/marcopettorali/editplot.git@main",
+]
+
+[project.urls]
+Homepage = "https://github.com/marcopettorali/marcosutils"
+Repository = "https://github.com/marcopettorali/marcosutils"
+
+[tool.setuptools]
+packages = []
