@@ -1,0 +1,6 @@
+[submodule "probdist"]
+	path = probdist
+	url = https://github.com/marcopettorali/probdist.git
+[submodule "editplot"]
+	path = editplot
+	url = https://github.com/marcopettorali/editplot.git
