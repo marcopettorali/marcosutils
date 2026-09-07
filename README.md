@@ -52,22 +52,3 @@ To update the submodules to the latest commit on their configured branch:
 git submodule update --remote --merge
 git commit -am "Update submodules"
 ```
-
-## Modify the included repositories
-
-The repository list is defined in `.gitmodules` for source checkout and in
-`pyproject.toml` for pip installation.
-
-To add a new repository:
-
-```bash
-git submodule add https://github.com/owner/repo.git repo
-```
-
-Then add the corresponding dependency to `pyproject.toml`:
-
-```toml
-dependencies = [
-  "repo @ git+https://github.com/owner/repo.git@main",
-]
-```
