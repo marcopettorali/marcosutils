@@ -4,3 +4,6 @@
 [submodule "editplot"]
 	path = editplot
 	url = https://github.com/marcopettorali/editplot.git
+[submodule "chunkedio"]
+	path = chunkedio
+	url = https://github.com/marcopettorali/chunkedio.git
