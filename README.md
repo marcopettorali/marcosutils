@@ -7,6 +7,8 @@ GitHub repositories.
 
 ## Included repositories
 
+- [chunkedio](https://github.com/marcopettorali/chunkedio)
+
 - [probdist](https://github.com/marcopettorali/probdist)
 - [editplot](https://github.com/marcopettorali/editplot)
 
