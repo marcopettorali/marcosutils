@@ -7,3 +7,6 @@
 [submodule "chunkedio"]
 	path = chunkedio
 	url = https://github.com/marcopettorali/chunkedio.git
+[submodule "argparam"]
+	path = argparam
+	url = https://github.com/marcopettorali/argparam.git
