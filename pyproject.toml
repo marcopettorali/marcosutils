@@ -12,6 +12,7 @@ authors = [
   { name = "Marco Pettorali" },
 ]
 dependencies = [
+  "argparam @ git+https://github.com/marcopettorali/argparam.git@main",
   "chunkedio @ git+https://github.com/marcopettorali/chunkedio.git@main",
   "probdist @ git+https://github.com/marcopettorali/probdist.git@main",
   "editplot @ git+https://github.com/marcopettorali/editplot.git@main",
